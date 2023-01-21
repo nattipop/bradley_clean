@@ -3,6 +3,7 @@ import Nav from "./Nav";
 import Calendar from "./Calendar";
 import About from "./About";
 import Pictures from "./Pictures";
+import Footer from "./Footer";
 
 const Hero = () => {
   return (
@@ -12,6 +13,7 @@ const Hero = () => {
       <About />
       <Pictures />
       <Calendar />
+      <Footer />
     </div>
   )
 }

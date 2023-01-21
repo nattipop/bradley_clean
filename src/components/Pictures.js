@@ -8,7 +8,6 @@ const Pictures = () => {
   const renderPictures = () => {
     return clickedPic ? (
       <div className="container">
-       
         <div className="row">
           <img className="full-cleaning-pic col" src={clickedPic.src} alt={clickedPic.alt} />
           <div className="col flex-center">
@@ -22,8 +21,8 @@ const Pictures = () => {
         <div className="col-4" key={picture.id}>
           <img className="cleaning-pic-style" onClick={() => {
             window.scrollTo({
-              top: 750,
-              left: 750,
+              top: 650,
+              left: 650,
               behavior: 'smooth'
             })
             setClickedPic(picture)
