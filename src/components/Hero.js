@@ -10,10 +10,12 @@ const Hero = () => {
     <div style={{minWidth: "100%", alignItems: "center"}}>
       <img id="hero-logo" src={bcc_logo} alt="logo" />
       <Nav />
-      <About />
-      <Pictures />
-      <Calendar />
-      <Footer />
+      <div id="gradient">
+        <About />
+        <Pictures />
+        <Calendar />
+        <Footer />
+      </div>
     </div>
   )
 }
