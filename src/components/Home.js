@@ -1,9 +1,7 @@
 import bcc_logo from "../images/Bcc-black 01 Artboard 1.jpg";
-import Nav from "./Nav";
 import Calendar from "./Calendar";
 import About from "./About";
 import Pictures from "./Pictures";
-import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -20,12 +18,10 @@ const Home = () => {
           <p>hannah@bradleyclean.com</p>
         </div>
       </div>
-      <Nav />
       <div id="gradient">
         <About />
         <Pictures />
         <Calendar />
-        <Footer />
       </div>
     </div>
   )

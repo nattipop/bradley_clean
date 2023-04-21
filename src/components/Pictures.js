@@ -1,10 +1,8 @@
-import { useState } from "react"
-import { useNavigate } from "react-router";
+import { useState } from "react"  
 import cleaningPictures from "../images/cleaning_pictures.json"
 
 const Pictures = () => {
   const [clickedPic, setClickedPic] = useState(null);
-  const navigate = useNavigate();
   const renderPictures = () => {
     return clickedPic ? (
       <div className="container">

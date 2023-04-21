@@ -19,7 +19,7 @@ const Calendar = () => {
       <div className="col flex-center" style={{height: "400px"}}>
         <img className="icon-sizing" src="https://cdn-icons-png.flaticon.com/512/6428/6428769.png" alt="" />
         <h1>Schedule a Consultation</h1>
-        <p className="question-consultation" onClick={() => setClicked(true)}>What is a consultation?</p>
+        <p className="question-consultation" onClick={() => setClicked(true)}>What to expect</p>
       </div>
     )
   }
