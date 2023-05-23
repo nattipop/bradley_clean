@@ -18,6 +18,7 @@ import Team from './components/Team';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import About from './components/About';
+import Services from './components/Services.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -32,6 +33,7 @@ root.render(
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/about-hannah" element={<About />} />
         <Route path="/our-team" element={<Team />} />
+        <Route path="/services" element={<Services />} />
       </Routes>  
       <Footer />
     </BrowserRouter>

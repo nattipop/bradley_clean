@@ -9,7 +9,7 @@ const Nav = () => {
         <li className="nav-item">
           <a href="/schedule-consultation"><h1 className="nav-link text-dark">SCHEDULE A CONSULTATION</h1></a>
         </li>
-        <div class="dropdown">
+        <div class="dropdown nav-item">
           <a class="dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
             <h1 className="nav-link text-dark">ABOUT</h1>
           </a>

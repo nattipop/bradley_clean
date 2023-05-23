@@ -1,7 +1,7 @@
 const Team = () => {
   return (
     <div>
-      Meet our team
+      our team
     </div>
   )
 }
