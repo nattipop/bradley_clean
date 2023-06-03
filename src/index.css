@@ -17,6 +17,40 @@ h1 {
 }
 
 /* images */
+.service-icons {
+  opacity: 0.85;
+}
+
+.service-divs {
+  background-color: var(--dark-blue);
+  margin: 30px;
+  border-radius: 5px;
+  height: 160px;
+}
+
+.service-divs:hover {
+  cursor: pointer;
+}
+
+#bathroom-button {
+  display: none;
+  margin: 0px;
+}
+
+#kitchen-button {
+  display: none;
+  margin: 0px;
+}
+
+#living-button {
+  display: none;
+  margin: 0px;
+}
+
+#bedroom-button {
+  display: none;
+  margin: 0px;
+}
 #hero-logo {
   display: block;
   width: 300px;
@@ -29,6 +63,10 @@ h1 {
 #hero-background {
   background-color: var(--dark-blue);
   height: auto;
+}
+
+#hero-circle {
+  padding: 50px 0 50px;
 }
 
 #hannah-headshot {
@@ -110,6 +148,7 @@ h1 {
 
 .theme-button:hover {
   background-color: rgba(118, 122, 185, 0.7);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 @keyframes slideinfade {
@@ -139,8 +178,6 @@ h1 {
 
 #gradient {
   background-color: var(--light-blue);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /* nav */
@@ -149,6 +186,7 @@ h1 {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .nav-link {
@@ -200,9 +238,10 @@ a {
   display: block;
   margin: auto;
   padding: 40px;
-  background-color: white;
+  background-color: var(--light-blue);
   border-radius: 6px;
   margin-bottom: 50px;
+  height: 100%;
 }
 
 .question-consultation {
@@ -246,6 +285,22 @@ a {
 
 .copyright {
   padding-bottom: 80px;
+}
+
+.auto-center {
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.stay-right {
+  text-align: right;
+  justify-content: right;
+}
+
+.stay-left {
+  text-align: left;
+  justify-content: left;
 }
 
 /* mulit-use */

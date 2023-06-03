@@ -1,9 +1,11 @@
+import hannahHeadshot from "../images/IMG_5809.gif"
+
 const About = () => {
   return (
     <div className="container" id="about-section">
       <div className="row">
         <div className="col-2 text-center" id="headshot-div">
-          <img id="hannah-headshot" src="" alt="hannah" />
+          <img id="hannah-headshot" src={hannahHeadshot} alt="hannah" />
         </div>
         <div className="col about-text">
           <h1>ABOUT HANNAH</h1>
